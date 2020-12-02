@@ -1,0 +1,21 @@
+1. Cho 1 tập a người gồm nam và nữ. Hãy viết chương trình mỗi người có ít nhất 1 mối quan hệ với người khác
+Cho thông tin 1 người cho trước hãy viết chương trình tìm tất cả các người bạn của người đó
+Cho thông tin 1 người cho trước hãy viết chương trình tìm người bạn nam của người đó
+Cho thông tin 1 người cho trước hãy viết chương trình tìm người bạn nữ của người đó
+Cho thông tin 1 người cho trước hãy viết chương trình tìm người bạn nữ có độ xinh gái >5 của người đó
+
+
+Gợi ý:
+-Person:
+    name
+    age
+-Boy
+    handsome: tính theo thang 10
+-Girl
+    beauty; tính theo thang 10
+-Group
+    -people: []
+    -relationships:[]
+-Relationship:
+    a
+    b

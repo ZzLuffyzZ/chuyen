@@ -1,0 +1,50 @@
+/*
+selector: xác định đối tượng stye
+
+*/
+*{
+    font-family: 'Pacifico', cursive;
+}
+
+#troll{
+    width: 600px ;
+    margin: auto;
+}
+
+#question{
+    height: 300px;
+    background-color: #212121;
+    font-size: 30px;
+    color: #ffffff;
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;/*căn theo chiều flex-direction:*/
+    align-items: center;/*căn theo chiều vuông góc flex-direction:*/
+
+}
+
+#answers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#answers>div{
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#yes{
+    background-color:#3b581a;
+}
+
+#no{
+    background-color: cadetblue;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
